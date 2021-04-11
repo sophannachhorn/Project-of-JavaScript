@@ -1,0 +1,160 @@
+body{
+    background-image: url('../Pizza-from-the-Pizza-Company.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+#container{
+    width: 40%;
+    margin: auto;
+
+    
+}
+header{
+    width: 95%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgb(233, 232, 232);
+    margin: auto;
+    display: none;
+}
+
+
+#name,
+#quantity,
+#address,
+#Date {
+    padding:10px;
+    width: 78%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+#Date{
+    margin-left: 60px;
+}
+#color{
+    width: 77%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+input[type=number]{
+    margin-left: 30px;
+
+}
+input[type=radio]{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#costumerName,
+#tel{
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+#costumerName{
+    margin-left: 50px;
+}
+#address {
+    margin-left: 35px;
+}
+#message{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+
+}
+.order{
+    padding: 20px;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 36%;
+    background: rgb(28, 140, 231);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: navajowhite;
+    outline: none;
+    
+}
+p{
+    padding: 15px;
+    background: rgb(235, 59, 59);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.result #date,
+.result #mail{
+    display: none;
+}
+i{
+    margin-right: 10px;
+}
+.under{
+    margin-top: 20px;
+}
+.under h3{
+    color: rgb(5, 5, 5);
+}
+#search{
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+#page-banner h1{
+    text-align: center;
+}
+
+.hideshow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#hide,
+#show{
+    padding: 15px;
+    width: 15%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#hide{
+    background: rgb(69, 169, 236);
+}
+.minmax{
+    display: flex;
+    align-items: center;
+}
+#btn_quant{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    background: rgb(28, 140, 231);
+    color: white;
+}
+.minmax label{
+    margin-left: 5px;
+}
+#Min,
+#Max{
+    width: 15%;
+    padding: 5px;
+    margin-left: 0px;
+}
+#date,
+#mail{
+    display: inline-block;
+}
